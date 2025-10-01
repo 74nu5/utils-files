@@ -1,0 +1,45 @@
+{
+  "name": "example-mcp-tool",
+  "version": "1.0.0",
+  "description": "Example MCP tool configuration",
+  "tools": [
+    {
+      "name": "file_reader",
+      "description": "Read and analyze files",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Path to the file to read"
+          }
+        },
+        "required": ["path"]
+      }
+    },
+    {
+      "name": "code_analyzer",
+      "description": "Analyze code quality and structure",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string",
+            "description": "Programming language"
+          },
+          "code": {
+            "type": "string",
+            "description": "Code to analyze"
+          }
+        },
+        "required": ["language", "code"]
+      }
+    }
+  ],
+  "resources": [
+    {
+      "name": "project_files",
+      "description": "Access to project files and structure"
+    }
+  ]
+}
