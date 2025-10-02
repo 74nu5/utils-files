@@ -1,5 +1,5 @@
 # utils-files
-Utility files for development - A collection of configuration files, templates, and tools to enhance your development workflow.
+Universal development utility files - A collection of **technology-agnostic** configuration files, templates, and tools that can be adapted to enhance any development workflow, regardless of programming language or framework.
 
 ## Repository Structure
 
@@ -21,9 +21,9 @@ Utility files for development - A collection of configuration files, templates, 
 ## What's Included
 
 ### 🤖 GitHub Copilot Files (`copilot/`)
-- **Prompts**: Custom prompts for specific coding scenarios
-- **Instructions**: Files that define Copilot's behavior and guidelines
-- **Modes**: Agent mode files for specialized workflows
+- **Prompts**: **Universal prompts** that can be configured for any project type (web, mobile, desktop, API, etc.)
+- **Instructions**: **Technology-agnostic coding standards** and best practices templates adaptable to any programming language
+- **Modes**: **Flexible agent workflows** that can be customized for different development methodologies
 
 ### 🔧 MCP Toolset Files (`mcp/`)
 - Tool configurations for extending Copilot with external capabilities
@@ -42,9 +42,46 @@ Utility files for development - A collection of configuration files, templates, 
 
 ## Usage
 
-1. Browse the relevant directory for your needs
-2. Copy or import configuration files into your development environment
-3. Follow the README instructions in each directory for specific setup steps
+1. **Browse** the relevant directory for your needs
+2. **Configure** the template variables (marked with `{VARIABLE_NAME}`) to match your project
+3. **Copy** or import configuration files into your development environment
+4. **Customize** the templates by removing irrelevant sections and adding technology-specific content
+5. **Follow** the README instructions in each directory for specific setup steps
+
+### 🔧 Configuration Process
+
+Most files in this repository are **templates** with configurable variables:
+- Replace `{PROJECT_NAME}` with your actual project name
+- Replace `{TECH_STACK}` with your technology stack (React, .NET, Python, etc.)
+- Replace `{FRAMEWORK}` with your framework (Next.js, Spring Boot, FastAPI, etc.)
+- Remove sections that don't apply to your project
+- Add technology-specific patterns and examples
+
+## 🌐 Supported Technologies
+
+These templates have been designed to work with:
+
+### Frontend Frameworks
+- React, Vue.js, Angular, Svelte
+- Blazor Server/WebAssembly
+- Flutter, React Native
+
+### Backend Technologies  
+- .NET (ASP.NET Core, Web API, Minimal APIs)
+- Node.js (Express, NestJS, Fastify)
+- Python (Django, FastAPI, Flask)
+- Java (Spring Boot, Quarkus)
+- Go, Rust, PHP
+
+### Databases
+- SQL: PostgreSQL, MySQL, SQLite, SQL Server
+- NoSQL: MongoDB, Redis, DynamoDB
+- ORM/ODM: Entity Framework, Prisma, SQLAlchemy, Hibernate
+
+### Cloud & DevOps
+- Azure, AWS, Google Cloud
+- Docker, Kubernetes
+- GitHub Actions, Azure DevOps, Jenkins
 
 ## Contributing
 
